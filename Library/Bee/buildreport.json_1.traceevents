@@ -1,0 +1,505 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1672936084247329, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936084249549, "dur": 29413, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936084279330, "dur": 54938, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936084334307, "dur": 480360, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936084814669, "dur": 21865494, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936106680196, "dur": 9964, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936140010532, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936140011191, "dur": 15484, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936140026678, "dur": 48429, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936140075109, "dur": 1262404, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936141337515, "dur": 6110924, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936147448441, "dur": 4305, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936147453445, "dur": 51, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1672936140974894, "dur": 336700, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936140976362, "dur": 68118, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936141280257, "dur": 10638, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936141290901, "dur": 20675, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936141292109, "dur": 18619, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936141318767, "dur": 2281, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672936141317440, "dur": 3676, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936147453627, "dur": 506, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672936141400187, "dur":1208, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936141401411, "dur":83, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672936141401510, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672936141401536, "dur":350, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672936141401942, "dur":956, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936141402899, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416345, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416358, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416381, "dur":246, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416627, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416666, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416670, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416684, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416688, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416702, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416758, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147416767, "dur":2258, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672936141402648, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141402934, "dur":4670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141407605, "dur":122612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672936141530225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141530233, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672936141531145, "dur":100322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672936141631476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141631486, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1672936141632415, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672936141632599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141632996, "dur":37977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672936141671053, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672936141671177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141671199, "dur":27597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672936141698898, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672936141699031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936141699038, "dur":1123989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672936142823141, "dur":375801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki.exe" }}
+,{ "pid":12345, "tid":1, "ts":1672936143198948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143198955, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki.exe" }}
+,{ "pid":12345, "tid":1, "ts":1672936143200065, "dur":59200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143259274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143259547, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143260400, "dur":24282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143284690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143284738, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143285437, "dur":24155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143309603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143309612, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143310571, "dur":33991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143344570, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143344579, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143345373, "dur":50553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143395935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143395945, "dur":16522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143412497, "dur":26991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143439495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143439504, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143440224, "dur":23466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143463698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143463708, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143464752, "dur":26842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143491602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143491622, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143492324, "dur":35973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143528305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143528313, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143529118, "dur":33763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143562888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143562897, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143563622, "dur":31412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143595043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143595054, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143596441, "dur":89839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143686288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143686297, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143687191, "dur":32674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143719873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143719881, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143721862, "dur":43152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143765023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936143765032, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936143767626, "dur":323443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144091077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144091087, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144092954, "dur":45245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144138210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144138258, "dur":28558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144166845, "dur":58864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144225720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144225731, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144226788, "dur":38288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144265085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144265095, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144266030, "dur":60586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144326625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144326636, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144327559, "dur":32244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144359813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144359825, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144360734, "dur":81229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144441970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144441979, "dur":6534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144448541, "dur":50063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144498613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144498624, "dur":27665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144526316, "dur":150719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144677044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144677056, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144678139, "dur":47371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144725519, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144725530, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144726385, "dur":39239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144765633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144765644, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144766581, "dur":150874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144917463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144917474, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144918452, "dur":43174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144961636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144961648, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144963099, "dur":34894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144998001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936144998012, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936144998885, "dur":59981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145058875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145058887, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145059914, "dur":72147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145132070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145132081, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145133284, "dur":75380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145208674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145208684, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145209604, "dur":134253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145343875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145343896, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145347849, "dur":139078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145486936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145486947, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145488108, "dur":5137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145493253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145493264, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145494165, "dur":68572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145562742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145562751, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145563536, "dur":37996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145601540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145601551, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145602450, "dur":38262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145640721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936145640732, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936145644059, "dur":556639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146219980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936146219993, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146223593, "dur":309356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146532958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936146532968, "dur":4230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146537223, "dur":274209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146811439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936146811449, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936146812455, "dur":308607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936147121070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672936147121078, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672936147121919, "dur":294209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141402650, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141402923, "dur":4644, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141407586, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1672936141407596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141408575, "dur":875, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1672936141409456, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1672936141409493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141409660, "dur":9778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1672936141419442, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672936141419639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141419726, "dur":75993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672936141495797, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1672936141495924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936141495931, "dur":1339253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1672936142835286, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1672936142835546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936142835764, "dur":515888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1672936143351780, "dur":50385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143402173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143402209, "dur":10546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143412778, "dur":39509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143452295, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143452305, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143453275, "dur":113873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143567191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143567203, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143568291, "dur":38078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143606377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143606387, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143607340, "dur":115756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143723104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143723114, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143724165, "dur":85683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143809857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143809867, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143810792, "dur":47795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143858595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143858605, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143859595, "dur":76173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143935778, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936143935790, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936143937313, "dur":72081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144009402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144009412, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144010286, "dur":185057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144195353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144195363, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144196358, "dur":66737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144263105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144263116, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144264040, "dur":99405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144363454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144363464, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144364503, "dur":76683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144441194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144441205, "dur":7045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144448277, "dur":158566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144606854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144606865, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144607934, "dur":99639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144707585, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144707680, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144711350, "dur":39763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144751123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144751169, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144752102, "dur":36206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144788317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144788328, "dur":5633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144794004, "dur":47934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144841946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144841956, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144844871, "dur":63908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144908790, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936144908801, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936144910127, "dur":203346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145113482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936145113492, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145116370, "dur":54098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145170475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936145170484, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145171357, "dur":58538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145229903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936145229914, "dur":7545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145237486, "dur":111382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145348876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936145348885, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145350964, "dur":435877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145786851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936145786861, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936145788972, "dur":257968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146046944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146046950, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146049162, "dur":57198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146106369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146106379, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146107410, "dur":168872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146276290, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146276300, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146277788, "dur":95516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146373314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146373325, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146374499, "dur":313522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146688029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146688040, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146691085, "dur":226465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146917559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146917569, "dur":59939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672936146977538, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936146977567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936146977604, "dur":62490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936147040125, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672936147040149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147040156, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672936147041448, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936147041475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147041482, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936147042351, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672936147042375, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147042388, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672936147043283, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936147043309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147043314, "dur":22719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672936147066064, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1672936147066093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147066101, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1672936147067992, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1672936147068253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672936147068269, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1672936147069464, "dur":347107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141402708, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141402943, "dur":4636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141407586, "dur":124950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1672936141532543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141532747, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1672936141533441, "dur":24154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672936141557607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141598525, "dur":13896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672936141612495, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672936141612620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936141612627, "dur":1210393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672936142823117, "dur":947166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672936143770292, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936143770300, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672936143772266, "dur":266467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144038741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144038752, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144040189, "dur":84421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144124619, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144124629, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144126321, "dur":116531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144242861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144242871, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144243822, "dur":49950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144293781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144293791, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144294759, "dur":35671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144330438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144330449, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144331372, "dur":32074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144363453, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144363464, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144364509, "dur":33467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144397985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144397997, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144398904, "dur":154831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144553744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144553755, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144555191, "dur":110440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144665639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144665649, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144666573, "dur":180438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144847020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144847030, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144848053, "dur":45521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144893582, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144893593, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144896414, "dur":31026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144927449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144927493, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144928568, "dur":49245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144977821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936144977832, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936144978778, "dur":71895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145050682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145050693, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145051670, "dur":37474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145089154, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145089171, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145091655, "dur":193838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145285501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145285511, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145287625, "dur":99062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145386695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145386750, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145388676, "dur":31142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145419828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145419839, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145420801, "dur":100091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145520901, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145520912, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145521939, "dur":9223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145531172, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145531185, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145532238, "dur":77408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145609651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145609659, "dur":33608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145643293, "dur":129966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145773267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145773277, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145774749, "dur":147616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145922374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936145922385, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936145923688, "dur":123023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146046719, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146046730, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146047981, "dur":124996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146172985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146172995, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146174087, "dur":44649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146220063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146220071, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146222100, "dur":551909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146774018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146774028, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146777335, "dur":84000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146861343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146861353, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146862226, "dur":39172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146901411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146901423, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672936146902469, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936146902605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146902810, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936146903626, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1672936146903655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146903681, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1672936146905566, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672936146905591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936146905598, "dur":131218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672936147036844, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936147037018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936147037027, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936147037997, "dur":1432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936147039440, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936147039452, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672936147042568, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1672936147042598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672936147042603, "dur":26561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1672936147069186, "dur":347335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141402768, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141402951, "dur":4652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141407604, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672936141407840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141409346, "dur":43446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672936141452857, "dur":64179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141517044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141517052, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141517924, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672936141518101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141518486, "dur":80877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672936141599465, "dur":40782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141640265, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141640281, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141641345, "dur":46149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141687501, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141687517, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141688447, "dur":38406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141726861, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141726874, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141727914, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141728096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141728104, "dur":84788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1672936141812965, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1672936141813086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936141813093, "dur":28049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1672936141841258, "dur":175223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936142016490, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936142016774, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936142018667, "dur":401300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936142419974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936142420032, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936142425406, "dur":3085252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145510668, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145510679, "dur":39756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145550526, "dur":1356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145551890, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145551904, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145553442, "dur":7902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145561384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145561395, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145562274, "dur":46970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145609253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145609263, "dur":33238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145642527, "dur":45617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145688153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145688162, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145689034, "dur":102166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145791208, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936145791219, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936145792397, "dur":394222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146186629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936146186640, "dur":33341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146220038, "dur":317788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146537832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936146537843, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146539253, "dur":268692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146807954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936146807965, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936146810487, "dur":600421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Game-Project-Rizki_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936147410916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672936147410927, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Game-Project-Rizki_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672936147416052, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1672936147416056, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672936147422308, "dur":3085, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1672936147454243, "dur": 5388, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672936147453422, "dur": 6270, "ph": "X", "name": "Write chrome-trace events", "args": {} },
